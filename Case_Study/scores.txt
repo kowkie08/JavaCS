@@ -1,0 +1,6 @@
+dsa     20
+null     12
+1asda2     10
+alsdio     60
+     0
+asdasdak     24
