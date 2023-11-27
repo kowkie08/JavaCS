@@ -51,7 +51,7 @@ public class Level extends javax.swing.JFrame {
         setUndecorated(true);
         setResizable(false);
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Kowkie\\Downloads\\minesweeper-master\\charles\\Easy3.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/res/Easy3.png"))); // NOI18N
         jButton1.setBorder(null);
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
@@ -71,7 +71,7 @@ public class Level extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Kowkie\\Downloads\\minesweeper-master\\charles\\Hard3.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/res/Hard3.png"))); // NOI18N
         jButton2.setBorder(null);
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
@@ -90,7 +90,7 @@ public class Level extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Kowkie\\Downloads\\minesweeper-master\\charles\\Medium3.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/res/Medium3.png"))); // NOI18N
         jButton3.setBorder(null);
         jButton3.setBorderPainted(false);
         jButton3.setContentAreaFilled(false);
@@ -109,7 +109,7 @@ public class Level extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Kowkie\\Downloads\\minesweeper-master\\charles\\Back3.png")); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/res/Back3.png"))); // NOI18N
         jButton5.setBorder(null);
         jButton5.setBorderPainted(false);
         jButton5.setContentAreaFilled(false);

@@ -53,7 +53,7 @@ public class MainMenu extends javax.swing.JFrame {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("MINESWEEPER");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Kowkie\\Downloads\\minesweeper-master\\charles\\START3.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/res/START3.png"))); // NOI18N
         jButton1.setAlignmentY(0.0F);
         jButton1.setBorder(null);
         jButton1.setBorderPainted(false);
@@ -74,7 +74,7 @@ public class MainMenu extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Kowkie\\Downloads\\minesweeper-master\\charles\\Scores3.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/res/Scores3.png"))); // NOI18N
         jButton2.setAlignmentY(0.0F);
         jButton2.setBorder(null);
         jButton2.setBorderPainted(false);
@@ -95,7 +95,7 @@ public class MainMenu extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Kowkie\\Downloads\\minesweeper-master\\charles\\Exit3.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/res/Exit3.png"))); // NOI18N
         jButton3.setAlignmentY(0.0F);
         jButton3.setBorder(null);
         jButton3.setBorderPainted(false);
